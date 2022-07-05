@@ -32,13 +32,13 @@ Historia de usuario detallada: HU002.
 
 |Criterio|Comentario|Realizado por|Solucionado|
 | :- | :- | :- | :- |
-|Completo|Conforme|Grupo|Si|
-|Consistente|Conforme|Grupo|Si|
-|Negociable|Conforme|Grupo|Si|
-|Valiosa|Conforme|Grupo|Si|
-|Estimable|Conforme|Grupo|Si|
-|Pequeña|Conforme|Grupo|Si|
-|Comprobable|Conforme|Grupo|Si|
+|Completo|Conforme|Grupo|Si|√|
+|Consistente|Conforme|Grupo|Si|√|
+|Negociable|Conforme|Grupo|Si|√|
+|Valiosa|Conforme|Grupo|Si|√|
+|Estimable|Conforme|Grupo|Si|√|
+|Pequeña|Conforme|Grupo|Si|√|
+|Comprobable|Conforme|Grupo|Si|√|
 
 Wireframe para la historia de usuario: HU002[^1].
 
