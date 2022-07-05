@@ -1,5 +1,4 @@
-![](Aspose.Words.e4708406-b95a-453e-8713-2bcaa9e797ad.001.png)
-## **Construcción de software**
+![](Aspose.Words.e4708406-b95a-453e-8713-2bcaa9e797ad.001.png) ## **CONSTRUCCIÓN DE SOFTWARE**
 ## **EVALUACIÓN FINAL DE CONSTRUCCIÓN DE SOFTWARE** 
 
 ## **EQUIPO DE DESARROLLO**
