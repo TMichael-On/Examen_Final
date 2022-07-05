@@ -1,11 +1,11 @@
 "# Final" 
 ## **EQUIPO DE DESARROLLO**
 
-|**Integrante**|**Apellidos y nombres de los integrantes del equipo de desarrollo (ordenado alfabéticamente)**|
-| :- | :- |
-|**1**|De la calle Coz Carlos |  Programador
-|**2**|De la Cruz Taza Geovany|  Programador
-|**3**|Galvan Durand Michael  |  Programador
+|**Integrante**|**Apellidos y nombres de los integrantes del equipo de desarrollo (ordenado alfabéticamente)**|**ROL**|
+| :- | :- | :- |
+|**1**|De la calle Coz Carlos |  Programador |
+|**2**|De la Cruz Taza Geovany|  Programador |
+|**3**|Galvan Durand Michael  |  Programador |
 
 ## **ÍTEM UNO**
 Historia de usuario detallada: HU002.
@@ -14,7 +14,6 @@ Historia de usuario detallada: HU002.
 | :- | :- |
 |Nombre|Editar asignaturas|
 |<p>Como [rol], quiero [descripción de la funcionalidad] para poder [beneficio o descripción de la consecuencia].
-
     Yo como un [rol], necesito [descripción de la funcionalidad], con la finalidad de [beneficio o descripción de la consecuencia].</p><p>Descripción[^1]</p>|Como docente, quiero editar los datos de una asignatura con la finalidad de actualizar el catálogo.|
 |Puntos de historia (días ideales)|0.5|
 |Criterios de aceptación|Debe tener un botón y sección que permita editar un código ingresado.|
@@ -35,7 +34,8 @@ Historia de usuario detallada: HU002.
 |Valiosa|Conforme|Grupo||
 |Estimable|Conforme|Grupo||
 |Pequeña|Conforme|Grupo||
-|Comprobable|Conforme|Grupo||
+|Comprobable|Conforme|Grupo|
+
 Wireframe para la historia de usuario: HU002[^2].
 
 ![](Aspose.Words.e4708406-b95a-453e-8713-2bcaa9e797ad.004.png)
