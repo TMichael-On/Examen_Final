@@ -39,7 +39,6 @@ class Editar(QDialog):
 
         id = self.lblCod.text()
         nombre = self.leANombre.text()
-        #estudiante_ = ""
         mensaje = "null"
 
         busqueda = session.query(Asignatura).filter(Asignatura.nombreAsignatura == nombre,
@@ -47,13 +46,12 @@ class Editar(QDialog):
         if len(busqueda) == 0:
             asignatura = session.query(Asignatura).filter(Asignatura.idAsignatura == id).first()
             asignatura.nombreAsignatura = nombre
-            # asignatura.estudiantes = estudiante_
             session.commit()
             mensaje = "Se actualizó el registro."
         else:
             mensaje = "Ya existe el titulo. No se actualizó el registro."
-        self.txtMensaje.setText(mensaje)
-        print(id,nombre)
+        self.txtMensaje.setText(mensaje.__str__())
+        #print(id,nombre)
 
     def exit_app(self):
         resultado = messagebox.askquestion("Salir", "¿Está seguro que desea salir?")

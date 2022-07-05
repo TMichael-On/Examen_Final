@@ -127,16 +127,6 @@
     <string>________________________________________</string>
    </property>
   </widget>
-  <widget class="QTextBrowser" name="leANombre_2">
-   <property name="geometry">
-    <rect>
-     <x>170</x>
-     <y>160</y>
-     <width>201</width>
-     <height>61</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLabel" name="txtMensaje">
    <property name="geometry">
     <rect>
@@ -174,6 +164,16 @@
    </property>
    <property name="text">
     <string>Nombre Actual</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leANombre">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>160</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
    </property>
   </widget>
  </widget>
