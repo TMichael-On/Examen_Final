@@ -22,7 +22,7 @@ Historia de usuario detallada: HU002.
 |Puntos de historia (días ideales)|0.5|
 |Criterios de aceptación|Debe tener un botón y sección que permita editar un código ingresado.|
 ||Cuando un código de asignatura no está registrado debe mostrar un mensaje de error.|
-||En el cuadro de ingreso del código debe aceptar solamente números.|
+||En el cuadro de ingreso del código debe todo tipo de caracteres como numéricos, alfa numéricos y otros; para que en el futuro permita mayor tipo de codificación.|
 ||Se debe visualizar el código y nombre actual que se desea editar para evitar confusiones|
 ||La sección código y nombre actual no debe permitir ediciones.|
 ||Al editar la asignatura se debe confirmar si el cambio fue exitoso o no lo fue|
