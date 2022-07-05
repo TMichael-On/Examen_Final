@@ -13,7 +13,7 @@ Historia de usuario detallada: HU002.
 |Identificador|HU002|
 | :- | :- |
 |Nombre|Editar asignaturas|
-|Descripción|Como [rol]|Como docente, quiero editar los datos de una asignatura con la finalidad de actualizar el catálogo.|
+|Descripción|Como docente, quiero editar los datos de una asignatura con la finalidad de actualizar el catálogo.|
 |Puntos de historia (días ideales)|0.5|
 |Criterios de aceptación|Debe tener un botón y sección que permita editar un código ingresado.|
 ||Cuando un código de asignatura no está registrado debe mostrar un mensaje de error.|
