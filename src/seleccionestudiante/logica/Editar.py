@@ -1,4 +1,4 @@
-import sys
+
 import os
 
 from PyQt6.QtWidgets import QApplication, QDialog
@@ -30,10 +30,7 @@ class Editar(QDialog):
 
                 self.lblCod.setText(ID.__str__())
                 self.lblNomb.setText(Nombre.__str__())
-                #print(ID,Nombre)
-        #self.lblCod.setText(mostrar.nombreAsignatura)
-        #self.leANombre.setText(mostrar.nombreAsignatura)
-        #session.close()
+
 
     def editar_asignatura(self):
 
@@ -51,10 +48,9 @@ class Editar(QDialog):
         else:
             mensaje = "Ya existe el titulo. No se actualizó el registro."
         self.txtMensaje.setText(mensaje.__str__())
-        #print(id,nombre)
+
 
     def exit_app(self):
         resultado = messagebox.askquestion("Salir", "¿Está seguro que desea salir?")
         if resultado == "yes":
-            # exit(0)
             quit(0)

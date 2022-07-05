@@ -1,4 +1,4 @@
-from src.seleccionestudiante.modelo.Asignatura import Asignatura, AsignaturaEstudiante
+from src.seleccionestudiante.modelo.Asignatura import Asignatura
 from src.seleccionestudiante.modelo.Estudiante import Estudiante
 from src.seleccionestudiante.modelo.Equipo import Equipo
 from src.seleccionestudiante.modelo.Actividad import Actividad
