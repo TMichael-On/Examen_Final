@@ -66,8 +66,8 @@ class Editar(QDialog):
 
 
     def valida (cadena):
-        try:
-            int(cadena)
-            return True
-        except ValueError:
-            return False
+        for validate in cadena:
+            if validate.isdigit():
+                continue
+            else:
+                print("Error Cadena | Valida")
