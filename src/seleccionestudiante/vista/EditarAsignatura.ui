@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Vista</class>
@@ -181,7 +180,6 @@
  <resources/>
  <connections/>
 </ui>
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Vista</class>
@@ -325,4 +323,3 @@
  <resources/>
  <connections/>
 </ui>
->>>>>>> f509d188ca4cea3d6cf01cad8743890d3c8ede0f
