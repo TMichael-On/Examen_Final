@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Editar Asignatura</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Imagen1.jpg</normaloff>Imagen1.jpg</iconset>
+  </property>
   <widget class="QLabel" name="lblAsignatura">
    <property name="geometry">
     <rect>
