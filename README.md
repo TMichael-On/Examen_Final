@@ -7,10 +7,10 @@
 ## **EQUIPO DE DESARROLLO**
 
 |**Integrante**|**Apellidos y nombres de los integrantes del equipo de desarrollo (ordenado alfabéticamente)**|**ROL**|
-| :- | :- | :- |
-|**1**|De la calle Coz Carlos |  Programador |
-|**2**|De la Cruz Taza Geovany|  Programador |
-|**3**|Galvan Durand Michael  |  Programador |
+| :- | :- | :- | : - |
+|**1**|De la calle Coz Carlos |  Programador | 100% |
+|**2**|De la Cruz Taza Geovany|  Programador | 100% |
+|**3**|Galvan Durand Michael  |  Programador | 100% |
 
 ## **ÍTEM UNO**
 Historia de usuario detallada: HU002.
