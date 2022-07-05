@@ -13,7 +13,7 @@ Historia de usuario detallada: HU002.
 |Identificador|HU002|
 | :- | :- |
 |Nombre|Editar asignaturas|
-|<p>Como [rol], quiero [descripción de la funcionalidad] para poder [beneficio o descripción de la consecuencia].
+|Como [rol], quiero [descripción de la funcionalidad] para poder [beneficio o descripción de la consecuencia].
     Yo como un [rol], necesito [descripción de la funcionalidad], con la finalidad de [beneficio o descripción de la consecuencia].</p><p>Descripción[^1]</p>|Como docente, quiero editar los datos de una asignatura con la finalidad de actualizar el catálogo.|
 |Puntos de historia (días ideales)|0.5|
 |Criterios de aceptación|Debe tener un botón y sección que permita editar un código ingresado.|
