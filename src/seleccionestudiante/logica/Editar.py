@@ -22,6 +22,7 @@ class Editar(QDialog):
 
     def mostrar_datos(self):
         mostrar = session.query(Asignatura).all()
+        #aux=int(self.valida(self.txtId.text()))
         aux=int(self.txtId.text())
         mensaje = "null"
         aux1=0
@@ -39,7 +40,6 @@ class Editar(QDialog):
             self.lblCod.setText("________________________________________".__str__())
             self.lblNomb.setText("________________________________________".__str__())
         self.txtMensaje.setText(mensaje.__str__())
-                #resultado = messagebox.askquestion("Salir", "¿Está seguro que desea salir?")
 
     def editar_asignatura(self):
 
@@ -68,6 +68,10 @@ class Editar(QDialog):
     def valida (cadena):
         for validate in cadena:
             if validate.isdigit():
-                continue
+                cadena=int(cadena)
             else:
                 print("Error Cadena | Valida")
+                #Editar()
+                # resultado = messagebox.askquestion("Salir", "¿Está seguro que desea salir?")
+                cadena=0
+        return cadena
