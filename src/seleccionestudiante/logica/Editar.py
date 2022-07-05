@@ -29,7 +29,7 @@ class Editar(QDialog):
                 Nombre = item.nombreAsignatura
 
                 self.lblCod.setText(ID.__str__())
-                self.leANombre.setText(Nombre.__str__())
+                self.lblNomb.setText(Nombre.__str__())
                 #print(ID,Nombre)
         #self.lblCod.setText(mostrar.nombreAsignatura)
         #self.leANombre.setText(mostrar.nombreAsignatura)

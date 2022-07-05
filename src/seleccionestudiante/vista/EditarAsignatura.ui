@@ -106,12 +106,12 @@
     <rect>
      <x>170</x>
      <y>80</y>
-     <width>211</width>
+     <width>251</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>_________________________________</string>
+    <string>________________________________________</string>
    </property>
   </widget>
   <widget class="QLabel" name="lblNomb">
@@ -119,12 +119,12 @@
     <rect>
      <x>170</x>
      <y>120</y>
-     <width>211</width>
+     <width>241</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>_________________________________</string>
+    <string>________________________________________</string>
    </property>
   </widget>
   <widget class="QTextBrowser" name="leANombre_2">
@@ -142,12 +142,12 @@
     <rect>
      <x>170</x>
      <y>240</y>
-     <width>211</width>
+     <width>251</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>_________________________________</string>
+    <string>________________________________________</string>
    </property>
   </widget>
   <widget class="QLabel" name="lblMensje">
