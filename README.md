@@ -6,7 +6,7 @@
 
 ## **EQUIPO DE DESARROLLO**
 
-|**Integrante**|**Apellidos y nombres de los integrantes del equipo de desarrollo (ordenado alfabéticamente)**|**ROL**|**Porcentaje**|
+|**Integrante**|**Apellidos y nombres de los integrantes del equipo de desarrollo**|**ROL**|**Porcentaje**|
 | :- | :- | :- | : - |
 |**1**|De la calle Coz Carlos |  Programador | 100% |
 |**2**|De la Cruz Taza Geovany|  Programador | 100% |
