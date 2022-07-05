@@ -22,15 +22,24 @@ class Editar(QDialog):
 
     def mostrar_datos(self):
         mostrar = session.query(Asignatura).all()
-
+        aux=int(self.txtId.text())
+        mensaje = "null"
+        aux1=0
         for item in mostrar:
-            if item.idAsignatura == int(self.txtId.text()):
+            if item.idAsignatura == aux:
                 ID = item.idAsignatura
                 Nombre = item.nombreAsignatura
-
                 self.lblCod.setText(ID.__str__())
                 self.lblNomb.setText(Nombre.__str__())
-
+                aux1=1
+        if aux1==1:
+            mensaje="Registro encontrado"
+        else:
+            mensaje = "ERROR: \t Registro no encontrado"
+            self.lblCod.setText("________________________________________".__str__())
+            self.lblNomb.setText("________________________________________".__str__())
+        self.txtMensaje.setText(mensaje.__str__())
+                #resultado = messagebox.askquestion("Salir", "¿Está seguro que desea salir?")
 
     def editar_asignatura(self):
 
@@ -54,3 +63,11 @@ class Editar(QDialog):
         resultado = messagebox.askquestion("Salir", "¿Está seguro que desea salir?")
         if resultado == "yes":
             quit(0)
+
+
+    def valida (cadena):
+        try:
+            int(cadena)
+            return True
+        except ValueError:
+            return False
